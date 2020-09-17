@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title id="title">Product Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="./style_prod.css">
+</head>
+<body>
+<header id="header">
+    <div class="logo">
+    <img id="header-img" src="./img/apple.jpg" width="120" height="120">
+        <h2>Fruit farmers</h2>
+    <nav id="nav-bar">
+        <ul>
+            <li>
+                <a id="about" class="nav-link" href="#about_us">About us</a>
+            </li>
+            <li>
+                <a id="price" class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li>
+                <a id="cont" class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+        </div>
+</header>
+<section id="more_info">
+<h3>You want to receive more information?</h3>
+<form id="form">
+    <input name="email" id="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter your email address" required>
+    <button id="submit" type="submit" oninput="clickSubscribe()" value="Subscribe">Subsctibe</button>
+</form>
+</section>
+<div class="container">
+    <section id="about_us">
+        <div class="center">
+        <video id="video" controls>
+            <source src="https://www.youtube.com/watch?v=DyQW-_1IhYA">
+        </video>
+        </div>
+    </section>
+    <section id="pricing">
+        <div class="product" id="jona_gold">
+            <div class="level">JONA GOLD</div>
+            <h4>3PLN</h4>
+            <button class="btn">Select</button>
+        </div>
+        <div class="product" id="schampion">
+            <div class="level">SCHAMPION</div>
+            <h4>4PLN</h4>
+            <button class="btn">Select</button>
+        </div>
+        <div class="product" id="ligol">
+            <div class="level">LIGOL</div>
+            <h4>5PLN</h4>
+            <button class="btn">Select</button>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="contact">Contact</div>
+        <span>Copyright 2020, Original KaRa Productions</span>
+    </footer>
+</div>
+<script src="script_prod.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+html {
+   font-size: 18px;
+   font-family: Garmamond;
+}
+
+.logo {
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+}
+
+#nav-bar {
+    width: 100%;
+    text-align: right;
+}
+
+h2 {
+    color: #990033;
+    width: 100%;
+}
+
+a {
+    cursor: pointer;
+}
+
+#more_info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#more_info > h3 {
+    margin-bottom: 10px;
+}
+
+#more_info input[type="email"] {
+    max-width: 200px;
+    padding: 5px;
+}
+
+#more_info input[type="submit"] {
+    width: 80%;
+    max-width: 100px;
+    background-color: #EF9A9A;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 5px;
+    border: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#pricing {
+    margin-top: 20px;
+    display: flex;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(90% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.level {
+   background-color: #FFCDD2;
+   padding: 15px 0;
+   width: 100%;
+   font-weight: 700;
+}
+
+.btn {
+   background-color: #FFCCCC;
+   max-width: 100px;
+   width: 60%;
+   height: 30px;
+   border: 5px;
+   padding: 5px;
+   margin: 5px 0;
+}
+
+footer {
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+footer > span {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.center {
+    margin: 50px auto;
+    width: 560px;
+    padding: 20px;
+    align-items: center;
+}
+
+#video  {
+    width: 100%;
+}

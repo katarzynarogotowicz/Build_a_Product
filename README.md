@@ -1,1 +1,2 @@
 # Build_a_Product
+Project from [Medium - Practice html and css, Build a Product Landing Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page).
