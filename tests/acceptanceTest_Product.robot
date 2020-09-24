@@ -24,7 +24,6 @@ Check the possibility of watching the movie
 
 Check the possibility of sending an email
      Check email send
-#     Check incorrect email validation
 
 *** Keywords ***
 Open Product Landing Page
@@ -53,9 +52,4 @@ Check email send
     Page should contain element       id=email
     Input Text                        id=email      ${EMAIL}
     Click Button                      Subscribe
-#    Page should contain element       Message sent
 
-#Check incorrect email validation
-#    Input Text                        id=email      ${EMAIL}
-#    Click Button                      Subscribe
-#    Page should contain element
